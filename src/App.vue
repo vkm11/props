@@ -1,17 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <h1>Props in Vue js</h1>
+    <Child v-bind:users="users" />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Child from "./components/Child";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Child,
+  },
+  data(){
+   return {users:[
+     {name:"Vijay", email:"vijay@gmail.com"},
+     {name:"Gokul",email:"gokul@gmail.com"},
+     {name:"Nithin",email:"nithin@gmail.com"},
+     {name:"Prajwal",email:"prajwal@gmail.com"}
+     ]}
   }
-}
+};
 </script>
 
 <style>
