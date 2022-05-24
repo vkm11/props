@@ -6,6 +6,14 @@
 :- pass props
 :- Access props
 
+## Send Props child to parent
+:- make a child component
+:- call a functions on button click
+:- emit a event from function
+:- call parent component function with event
+emmiter
+:- update title
+
 ## Project setup
 ```
 npm install
