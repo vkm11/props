@@ -1,4 +1,10 @@
 # props
+## props in vue js
+:- what is props
+:- Make a components
+:- Define props
+:- pass props
+:- Access props
 
 ## Project setup
 ```
